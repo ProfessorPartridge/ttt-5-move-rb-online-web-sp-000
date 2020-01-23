@@ -11,5 +11,5 @@ def input_to_index(input)
 end
 
 def move(board_array, index, char="X")
-  board_array[index] = char
+  return board_array[index] = char
 end
